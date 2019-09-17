@@ -1,0 +1,99 @@
+@import "../css/reset.css";
+@import "../css/style.css";
+h3.hidden-xs {
+  font-weight: bold;
+  font-size: 24px;
+  color: #323232;
+}
+a.cd-logo {
+  text-decoration: none;
+}
+.ribbon {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+.ribbon span {
+  font-size: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+  transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #F62459;
+  background: linear-gradient(#ff89b1 0%,#ff006e 100%);
+  box-shadow: 0 3px 10px -5px #000000;
+  position: absolute;
+  top: 19px;
+  right: -21px;
+}
+.ribbon span::before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid #F62459;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #F62459;
+}
+.ribbon span::after {
+  content: '';
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  z-index: -1;
+  border-right: 3px solid #F62459;
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #F62459;
+}
+#inventory .card:hover {
+  transition: all 0.3s ease;
+  box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+}
+#inventory .view-btn {
+  background-color: #e6de08;
+  margin: -25px 0 0 0;
+  border-radius: 0 0 0 0;
+  font-size: 14px;
+  border: #e6de08;
+  color: #000;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+.banner-price {
+  padding: 50px;
+}

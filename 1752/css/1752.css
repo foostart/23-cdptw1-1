@@ -1,0 +1,23 @@
+@import "../css/menu.css";
+#text-color {
+  color: #1BC744;
+}
+.banner-left h3 {
+  float: left;
+}
+.banner-right p {
+  float: right;
+}
+.image img {
+  width: 50%;
+}
+.text-name {
+  text-decoration-line: underline;
+  color: #90829F;
+}
+hr {
+  border: none;
+  height: 4px;
+  color: #153E4D;
+  background-color: #153E4D;
+}
