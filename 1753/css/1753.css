@@ -1,14 +1,12 @@
-@import "../css/reset.css";
-@import "../css/style.css";
-h3.hidden-xs {
+.type-1753 h3.hidden-xs {
   font-weight: bold;
   font-size: 24px;
   color: #323232;
 }
-a.cd-logo {
+.type-1753 a.cd-logo {
   text-decoration: none;
 }
-.ribbon {
+.type-1753 .ribbon {
   position: absolute;
   right: -5px;
   top: -5px;
@@ -18,7 +16,7 @@ a.cd-logo {
   height: 75px;
   text-align: center;
 }
-.ribbon span {
+.type-1753 .ribbon span {
   font-size: 10px;
   color: #fff;
   text-transform: uppercase;
@@ -35,33 +33,33 @@ a.cd-logo {
   top: 19px;
   right: -21px;
 }
-.ribbon span::before {
+.type-1753 .ribbon span::before {
   content: '';
   position: absolute;
   left: 0%;
   top: 100%;
   z-index: -1;
-  border-left: 3px solid #F62459;
+  border-left: 3px solid #ff89b1;
   border-right: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-top: 3px solid #F62459;
+  border-top: 3px solid #ff89b1;
 }
-.ribbon span::after {
+.type-1753 .ribbon span::after {
   content: '';
   position: absolute;
   right: 0%;
   top: 100%;
   z-index: -1;
-  border-right: 3px solid #F62459;
+  border-right: 3px solid #ff89b1;
   border-left: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-top: 3px solid #F62459;
+  border-top: 3px solid #ff89b1;
 }
-#inventory .card:hover {
+.type-1753 #inventory .card:hover {
   transition: all 0.3s ease;
   box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
 }
-#inventory .view-btn {
+.type-1753 #inventory .view-btn {
   background-color: #e6de08;
   margin: -25px 0 0 0;
   border-radius: 0 0 0 0;
@@ -69,18 +67,18 @@ a.cd-logo {
   border: #e6de08;
   color: #000;
 }
-.card {
+.type-1753 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
 }
-.price {
+.type-1753 .price {
   color: grey;
   font-size: 22px;
 }
-.card button {
+.type-1753 .card button {
   border: none;
   outline: 0;
   padding: 12px;
@@ -91,9 +89,9 @@ a.cd-logo {
   width: 100%;
   font-size: 18px;
 }
-.card button:hover {
+.type-1753 .card button:hover {
   opacity: 0.7;
 }
-.banner-price {
+.type-1753 .banner-price {
   padding: 50px;
 }

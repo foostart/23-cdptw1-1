@@ -8,6 +8,7 @@
     $url_path = $url_host.$matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="type-1753">
 <div class="container">
 	<header class="cd-main-header">
 		<a class="cd-logo" href="#0"><h3 class="hidden-xs">New/Used Cars</h3></a>
@@ -350,6 +351,6 @@
 	</div>
 
 </div>
-
+</div>
 
 

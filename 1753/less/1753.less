@@ -1,27 +1,35 @@
-@import"../css/reset.css";
-@import"../css/style.css";
+@color-1:#323232;
+@color-2: #fff;
+@color-3: #F62459;
+@color-4: #ff89b1;
+@color-5: #e6de08;
+@color-6: #000;
+@color-7: grey;
+@position-ab: absolute;
+@text-align: center;
+.type-1753{
 h3.hidden-xs {
     font-weight: bold;
     font-size: 24px;
-    color: #323232;
+    color: @color-1;
 }
 a.cd-logo {
     text-decoration: none;
 }
 .ribbon {
-    position: absolute;
+    position: @position-ab;
     right: -5px;
     top: -5px;
     z-index: 1;
     overflow: hidden;
     width: 75px;
     height: 75px;
-    text-align: center;
+    text-align: @text-align;
 }
 
     .ribbon span {
         font-size: 10px;
-        color: #fff;
+        color:@color-2;
         text-transform: uppercase;
         text-align: center;
         font-weight: bold;
@@ -29,10 +37,10 @@ a.cd-logo {
         transform: rotate(45deg);
         width: 100px;
         display: block;
-        background: #F62459;
+        background:@color-3;
         background: linear-gradient(#ff89b1 0%, #ff006e 100%);
         box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
-        position: absolute;
+        position: @position-ab;
         top: 19px;
         right: -21px;
 
@@ -40,26 +48,26 @@ a.cd-logo {
 
         .ribbon span::before {
             content: '';
-            position: absolute;
+            position: @position-ab;
             left: 0%;
             top: 100%;
             z-index: -1;
-            border-left: 3px solid #F62459;
+            border-left: 3px solid @color-4;
             border-right: 3px solid transparent;
             border-bottom: 3px solid transparent;
-            border-top: 3px solid #F62459;
+            border-top: 3px solid @color-4;
         }
 
         .ribbon span::after {
             content: '';
-            position: absolute;
+            position: @position-ab;
             right: 0%;
             top: 100%;
             z-index: -1;
-            border-right: 3px solid #F62459;
+            border-right: 3px solid @color-4;
             border-left: 3px solid transparent;
             border-bottom: 3px solid transparent;
-            border-top: 3px solid #F62459;
+            border-top: 3px solid @color-4;
         }
 
 
@@ -70,24 +78,24 @@ a.cd-logo {
 
 
 #inventory .view-btn {
-    background-color: #e6de08;
+    background-color:@color-5;
     margin: -25px 0 0 0;
     border-radius: 0 0 0 0;
     font-size: 14px;
-    border: #e6de08;
-    color: #000;
+    border: @color-5;
+    color: @color-6;
 
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
-    text-align: center;
+    text-align: @text-align;
     font-family: arial;
   }
   
   .price {
-    color: grey;
+    color: @color-7;
     font-size: 22px;
   }
   
@@ -95,9 +103,9 @@ a.cd-logo {
     border: none;
     outline: 0;
     padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
+    color: @color-2;
+    background-color: @color-6;
+    text-align: @text-align;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
@@ -109,5 +117,5 @@ a.cd-logo {
   .banner-price {
     padding: 50px;
 }
-
+}
 
