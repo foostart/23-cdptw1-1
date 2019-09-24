@@ -33,7 +33,6 @@
 
                                     <h2><span class="badge blue lighten-2 mb-4">Client pays</span></h2>
                                     <h2 class="display-4" style="color:#0d47a1"><strong id="clientPrice">319$</strong></h2>
-
                                 </div>
                                 <!-- Grid column -->
 

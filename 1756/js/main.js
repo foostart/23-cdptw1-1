@@ -198,11 +198,11 @@ var buttonFilter = {
 	    }
     
 	    // If the output string is empty, show all rather than none:    
-	    !self.outputString.length && (self.outputString = 'all'); 
+	    //!self.outputString.length && (self.outputString = 'all'); 
 	
     	// Send the output string to MixItUp via the 'filter' method:    
-		if(self.$container.mixItUp('isLoaded')){
-	    	self.$container.mixItUp('filter', self.outputString);
+		//if(self.$container.mixItUp('isLoaded')){
+	    	//self.$container.mixItUp('filter', self.outputString);
 		}
   	}
-};
+//};
