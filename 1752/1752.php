@@ -28,8 +28,8 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="<?php echo $url_path; ?>/css/1752.css" rel="stylesheet"/>
-    <link href="<?php echo $url_path; ?>/fontawesome/css/all.css" rel="stylesheet"/>
-    <link href="<?php echo $url_path; ?>/fontawesome/css/all.min.css" rel="stylesheet"/>
+
+    
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />

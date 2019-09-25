@@ -1,6 +1,8 @@
-@import "../css/menu.css";
+@color-1: #1BC744;
+@color-2: #90829F;
+@color-3: #153E4D;
 #text-color{
-  color:#1BC744;
+  color: @color-1;
 }
 .banner-left h3{
   float: left;
@@ -13,12 +15,12 @@
 }
 .text-name{
   text-decoration-line: underline;
-  color: #90829F;
+  color: @color-2;
 }
 hr{
 border: none;
 height: 4px;
 /* Set the hr color */
-color: #153E4D; /* old IE */
-background-color: #153E4D; /* Modern Browsers */
+color: @color-3; /* old IE */
+background-color: @color-3; /* Modern Browsers */
 }
