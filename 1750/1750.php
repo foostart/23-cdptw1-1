@@ -30,10 +30,10 @@
     <link href="<?php echo $url_path; ?>/libary/animate/animate.min.css" rel="stylesheet">
     <link href="<?php echo $url_path; ?>/libary/venobox/venobox.css" rel="stylesheet">
     <link href="<?php echo $url_path; ?>/libary/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href= " <?php echo $url_path;?>/css/bootstrap.min.css"/>
+    <link href=" <?php echo $url_path;?>/css/bootstrap.min.css"/>
     <link href="<?php echo $url_path; ?>/css/1750.css" rel="stylesheet" />
     <link href="<?php echo $url_path; ?>/fontawesome/css/all.css" rel="stylesheet" />
-    <link href="<?php echo $url_path; ?>/fontawesome/css/all.min.css" rel="stylesheet" />
+    
 
 
 </head>
@@ -52,14 +52,10 @@
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery-migrate.min.js"></script>
-<script src="js/easing.min.js"></script>
-<script src="js/hoverIntent.js"></script>
-<script src="js/superfish.min.js"></script>
+
 <script src="js/wow.min.js"></script>
-<script src="js/venobox.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/contactform.js"></script>
+
+
 <script src="js/main.js"></script>
 <script>
 $( document ).ready(function() {
