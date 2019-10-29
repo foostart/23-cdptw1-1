@@ -14,7 +14,7 @@
 			<div class="row"></div>
 			<div class="banner">
 				<div class="banner-left">
-					<h3>Browse by <span id="text-color">Make</span></h3>
+					<h3><b>Browse by <span id="text-color">Make</b></span></h3>
 				</div>
 				<div class="banner-right">
 					<div class="main">
@@ -113,7 +113,7 @@
 						<div class="col-md-3">
 							<a href="#">
 								<div class="image">
-									<img src="../1752/images/bmw-189x131.png">
+									<img src="../1752/images/img.png">
 								</div>
 								<div class="text-name">
 									BWM<span class="count"> (2)</span>
@@ -123,7 +123,7 @@
 						<div class="col-md-3">
 						<a href="#">
 								<div class="image">
-									<img src="../1752/images/bmw-189x131.png">
+									<img src="../1752/images/img.png">
 								</div>
 								<div class="text-name">
 									BWM<span class="count"> (2)</span>
@@ -133,7 +133,7 @@
 						<div class="col-md-3">
 						<a href="#">
 								<div class="image">
-									<img src="../1752/images/bmw-189x131.png">
+									<img src="../1752/images/img.png">
 								</div>
 								<div class="text-name">
 									BWM<span class="count"> (2)</span>
@@ -143,7 +143,7 @@
 						<div class="col-md-3">
 						<a href="#">
 								<div class="image">
-									<img src="../1752/images/bmw-189x131.png">
+									<img src="../1752/images/img.png">
 								</div>
 								<div class="text-name">
 									BWM<span class="count"> (2)</span>
@@ -157,14 +157,14 @@
 		<div class="col-md-6">
 		<div class="banner">
 				<div class="banner-left">
-					<h3>Browse by <span id="text-color">Make</span></h3>
+					<h3><b>Browse by <span id="text-color">Make</b></span></h3>
 				</div>
 				<div class="banner-right">
 					<div class="main">
 						<nav id="cbp-hrmenu" class="cbp-hrmenu">
 							<ul>
 								<li>
-									<a href="#">Show all Makes</a>
+									<a href="#">Show all Makes</span></a>
 									<div class="cbp-hrsub">
 										<div class="cbp-hrsub-inner"> 
 										<div>
@@ -213,7 +213,7 @@
 					<div class="col-md-3">
 						<a href="#">
 							<div class="image">
-								<img src="../1752/images/bmw-189x131.png">
+								<img src="../1752/images/img.png">
 							</div>
 							<div class="text-name">
 								BWM<span class="count"> (2)</span>
@@ -223,7 +223,7 @@
 					<div class="col-md-3">
 						<a href="#">
 							<div class="image">
-								<img src="../1752/images/bmw-189x131.png">
+								<img src="../1752/images/img.png">
 							</div>
 							<div class="text-name">
 								BWM<span class="count"> (2)</span>

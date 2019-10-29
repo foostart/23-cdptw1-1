@@ -20,3 +20,10 @@ hr {
   color: #153E4D;
   background-color: #153E4D;
 }
+.cbp-hrmenu > ul > li > a {
+  font-weight: 700;
+  padding: 1em 2em;
+  color: #999;
+  display: inline-block;
+  text-decoration-style: dashed;
+}

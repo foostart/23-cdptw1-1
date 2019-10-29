@@ -30,8 +30,7 @@
     <link href="<?php echo $url_path; ?>/libary/animate/animate.min.css" rel="stylesheet">
     <link href="<?php echo $url_path; ?>/libary/venobox/venobox.css" rel="stylesheet">
     <link href="<?php echo $url_path; ?>/libary/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href= " <?php echo $url_path;?>/css/bootstrap.min.css"/>
     <link href="<?php echo $url_path; ?>/css/1750.css" rel="stylesheet" />
     <link href="<?php echo $url_path; ?>/fontawesome/css/all.css" rel="stylesheet" />
     <link href="<?php echo $url_path; ?>/fontawesome/css/all.min.css" rel="stylesheet" />

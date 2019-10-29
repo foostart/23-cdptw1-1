@@ -8,6 +8,7 @@
     $url_path = $url_host.$matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="container">
     <main class="cd-main-content">
             <div class="cd-filter">
                 <form>
@@ -102,3 +103,4 @@
 
             <a href="#0" class="cd-filter-trigger">Filters</a>
         </main> <!-- cd-main-content -->
+        </div>
