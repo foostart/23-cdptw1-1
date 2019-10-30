@@ -27,23 +27,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="<?php echo $url_path; ?>/css/1756.css" rel="stylesheet" />
-    <link href="<?php echo $url_path; ?>/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?php echo $url_path; ?>/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <?php include '1756-content.php'; ?>
-
-
-    <script src="js/jquery-2.1.1.js"></script>
+</body>
+<div class="container">
+   <script src="js/jquery-2.1.1.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->
-
     <script src="js/bootstrap.js"></script>
     <script>
-    < /body> <
-    div class = "container" >
-
-        var slider = $("#calculatorSlider");
+    var slider = $("#calculatorSlider");
     var developerBtn = $("#developerBtn");
     var corporateBtn = $("#corporateBtn");
     var privateBtn = $("#privateBtn");
@@ -103,6 +99,6 @@
         }
     })
     </script>
-    </div>
+</div>
 
 </html>
