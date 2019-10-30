@@ -50,6 +50,10 @@ Primary style
 ul.cd-filter-content.cd-filters.list {
     color: #fff;
 }
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
   .cd-header {
     position: relative;
     height: 150px;
@@ -112,12 +116,22 @@ button, input, optgroup, select, textarea {
   .cd-main-content.is-fixed .cd-gallery {
     padding-top: 76px;
   }
+
   .cd-main-content.is-fixed .cd-filter {
     position: fixed;
     height: 100vh;
     overflow: hidden;
     background-color: #2A5066;
   }
+ 
+ .checkbox input[type=radio]:checked + label::after, .checkbox input[type=checkbox]:checked + label::after {
+    display: block;
+    margin-left: -23px !important;
+}
+  .cd-filter-block input[type=radio]:checked + label::after, .cd-filter-block input[type=checkbox]:checked + label::after {
+    display: block;
+    margin-left: 0 ;
+}
   .cd-main-content.is-fixed .cd-filter form {
     height: 100vh;
     overflow: auto;

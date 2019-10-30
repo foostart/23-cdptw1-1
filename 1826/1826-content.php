@@ -92,7 +92,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <span><strong>Open</strong>Sunday - Friday 08:00 - 18:00</span>
                                     </address>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </section>
                 </form>

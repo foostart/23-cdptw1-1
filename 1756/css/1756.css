@@ -37,6 +37,10 @@ h2 strong {
 ul.cd-filter-content.cd-filters.list {
   color: #fff;
 }
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
 .cd-header {
   position: relative;
   height: 150px;
@@ -108,6 +112,16 @@ textarea {
   height: 100vh;
   overflow: hidden;
   background-color: #2A5066;
+}
+.checkbox input[type=radio]:checked + label::after,
+.checkbox input[type=checkbox]:checked + label::after {
+  display: block;
+  margin-left: -23px !important;
+}
+.cd-filter-block input[type=radio]:checked + label::after,
+.cd-filter-block input[type=checkbox]:checked + label::after {
+  display: block;
+  margin-left: 0;
 }
 .cd-main-content.is-fixed .cd-filter form {
   height: 100vh;

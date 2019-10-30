@@ -8,7 +8,6 @@
     $url_path = $url_host.$matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="container">
     <main class="cd-main-content">
             <div class="cd-filter">
                 <form>
@@ -41,10 +40,10 @@
                             </div>
                         </div>   <!-- Grid row -->
                     </div> <!-- cd-filter-block -->
-                    <div class="cd-filter-block">
+                    <div class="cd-filter-block checkbox">
                         <h4>Combo Product </h4>
 
-                        <ul class="cd-filter-content cd-filters list">
+                        <ul class="cd-filter-content cd-filters list ">
                             <li>
                                 <input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
                                 <label class="checkbox-label" for="checkbox1">All Product</label>
@@ -76,7 +75,7 @@
                         </div> <!-- cd-filter-content -->
                     </div> <!-- cd-filter-block -->
 
-                    <div class="cd-filter-block">
+                    <div class="cd-filter-block a">
                         <h4>Radio buttons</h4>
 
                         <ul class="cd-filter-content cd-filters list">
@@ -103,4 +102,3 @@
 
             <a href="#0" class="cd-filter-trigger">Filters</a>
         </main> <!-- cd-main-content -->
-        </div>
