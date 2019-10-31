@@ -14,7 +14,10 @@ Primary style
   html {
     font-size: 62.5%;
   }
-  
+  .cd-filter.filter-is-visible .cd-close {
+    opacity: 1;
+    text-decoration: none;
+}
   html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -38,9 +41,9 @@ Primary style
     color: #fff;
 }
   /* -------------------------------- 
-  
-  Main Components 
-  
+
+  Main Components  
+   
   -------------------------------- */
   .cd-filter.filter-is-visible {
     width: 30%;
@@ -165,7 +168,6 @@ button, input, optgroup, select, textarea {
     display: table;
     clear: both;
   }
-  
   .cd-tab-filter {
     /* tabbed navigation style on mobile - dropdown */
     position: relative;

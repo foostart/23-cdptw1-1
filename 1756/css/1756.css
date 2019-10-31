@@ -10,6 +10,10 @@
 html {
   font-size: 62.5%;
 }
+.cd-filter.filter-is-visible .cd-close {
+  opacity: 1;
+  text-decoration: none;
+}
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,7 +24,7 @@ body {
   color: #331d35;
   background-color: #ffffff;
 }
-.a {
+a {
   color: #41307c;
   text-decoration: none;
 }
