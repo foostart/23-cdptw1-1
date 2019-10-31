@@ -7,15 +7,14 @@
     $url_path = $url_host.$matches[1][0];
     $url_path = str_replace('\\', '/', $url_path);
 ?>
+<div class="container">
 <header id="header">
-    <div class="container">
-
+    
         <div id="logo" class="pull-left">
             <!-- Uncomment below if you prefer to use a text logo -->
             <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
             <a href="#intro" class="scrollto"><img src="img/listing_logo.svg" align ="right"></a>
         </div>
-
         <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li class="menu-active"><a href="#intro">Home</a></li>
@@ -47,9 +46,7 @@
         </div>
     </div>
 </section>
-
 <main id="main">
-
     <section id="about">
         <div class="container">
             <div class="row">
@@ -73,3 +70,4 @@
         </div>
     </section>
 </main>
+</div>

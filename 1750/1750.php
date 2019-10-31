@@ -23,10 +23,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
-    <link href="<?php echo $url_path; ?>/libary/animate/animate.min.css" rel="stylesheet">
-    <link href="<?php echo $url_path; ?>/libary/venobox/venobox.css" rel="stylesheet">
-    <link href="<?php echo $url_path; ?>/libary/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href=" <?php echo $url_path;?>/css/bootstrap.min.css" />
     <link href="<?php echo $url_path; ?>/css/1750.css" rel="stylesheet" />
     <link href="<?php echo $url_path; ?>/fontawesome/css/all.css" rel="stylesheet" />
@@ -37,11 +33,7 @@
 </body>
 <script src="<?php echo $url_path; ?>/js/jquery-3.2.1.slim.min.js">
 </script>
-<script src="<?php echo $url_path; ?>/js/popper.js/1.12.9/umd/popper.min.js">
-</script>
-<script src="<?php echo $url_path; ?>js/bootstrap.min.js">
-</script>
-<script src="<?php echo $url_path; ?>js/jquery.min.js"></script>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>

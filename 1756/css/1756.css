@@ -417,6 +417,7 @@ textarea {
   white-space: nowrap;
   background: transparent url("../img/cd-icon-filter.svg") no-repeat center center;
   z-index: 3;
+  text-decoration: none !important;
 }
 .cd-filter-trigger.filter-is-visible {
   pointer-events: none;
