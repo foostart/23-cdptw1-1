@@ -103,7 +103,7 @@
                         <div class="col-md-3">
                             <a href="#">
                                 <div class="image">
-                                    <img src="../1752/images/img.png">
+                                    <img src="../1752/images/bmw-189x131.png">
                                 </div>
                                 <div class="text-name">
                                     BWM<span class="count"> (2)</span>
@@ -203,7 +203,7 @@
                     <div class="col-md-3">
                         <a href="#">
                             <div class="image">
-                                <img src="../1752/images/img.png">
+                                <img src="../1752/images/bmw-189x131.png">
                             </div>
                             <div class="text-name">
                                 BWM<span class="count"> (2)</span>
@@ -213,7 +213,7 @@
                     <div class="col-md-3">
                         <a href="#">
                             <div class="image">
-                                <img src="../1752/images/img.png">
+                                <img src="../1752/images/bmw-189x131.png">
                             </div>
                             <div class="text-name">
                                 BWM<span class="count"> (2)</span>

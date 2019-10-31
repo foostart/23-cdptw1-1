@@ -11,7 +11,7 @@
   width: 50%;
 }
 .text-name {
-  text-decoration-line: underline;
+  text-decoration: none;
   color: #90829F;
 }
 hr {

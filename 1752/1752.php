@@ -36,8 +36,6 @@
 </body>
 <script src="<?php echo $url_path; ?>js/jquery-3.2.1.slim.min.js">
 </script>
-
-
 <script>
 $(function() {
     cbpHorizontalMenu.init();

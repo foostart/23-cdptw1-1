@@ -31,13 +31,13 @@
 </head>
 
 <body>
-    <?php include '1756-content.php'; ?>
+    <?php include '1756-content.php'; ?> 
 </body>
 <div class="container">
    <script src="js/jquery-2.1.1.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->
-    <script src="js/bootstrap.js"></script>
+ 
     <script>
     var slider = $("#calculatorSlider");
     var developerBtn = $("#developerBtn");
